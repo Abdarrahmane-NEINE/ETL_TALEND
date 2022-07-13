@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_sW9DcPsFEeycH86vz0DrFQ" name="subvention" dataPackage="_sXAt0PsFEeycH86vz0DrFQ" Server="Localhost 127.0.0.1" FilePath="/Users/abdarrahmane/Downloads/plf-2014-jaune-associations-subventionne-es-2012.csv" Format="MAC" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\r&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_sXAt0PsFEeycH86vz0DrFQ" name="default" dataManager="_sW9DcPsFEeycH86vz0DrFQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sXAt0fsFEeycH86vz0DrFQ" id="_eEv-kPsEEeycH86vz0DrFQ" label="subvention_schema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt0vsFEeycH86vz0DrFQ" label="MILLESIME" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt0_sFEeycH86vz0DrFQ" label="LIB" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt1PsFEeycH86vz0DrFQ" label="Minist_re" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt1fsFEeycH86vz0DrFQ" label="PROGRAMME" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt1vsFEeycH86vz0DrFQ" label="ASSOCIATION" length="90" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt1_sFEeycH86vz0DrFQ" label="SIREN" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt2PsFEeycH86vz0DrFQ" label="DEPARTEMENT" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt2fsFEeycH86vz0DrFQ" label="VILLE" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt2vsFEeycH86vz0DrFQ" label="Subvention_2012" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt2_sFEeycH86vz0DrFQ" label="OBJET" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt3PsFEeycH86vz0DrFQ" label="EVALUATION" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt3fsFEeycH86vz0DrFQ" label="Convention" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt3vsFEeycH86vz0DrFQ" label="El_ments_de_la_convention" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sXAt3_sFEeycH86vz0DrFQ" label="Mission" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
